@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+body{
+    
+}
+
 div.quadrado{
     display: inline-block;
     border: 1px solid black;
@@ -19,3 +23,29 @@ div#q2{
 div#q3{
     background-image: url('imagens/pattern003.png');
 }
+
+div.bloco{
+    height: 200px;
+    border: 2px solid black;
+    margin: 5px;
+    border-radius: 20px;
+    background-image: url('imagens/wallpaper002.jpg');
+}
+
+
+div#l1{
+    background-position: left top;
+}
+
+div#l2{
+    background-position: left center;
+}
+
+div#l3{
+    background-position:  right bottom;
+}
+
+div#l4{
+    background-position: center center;
+}
+
