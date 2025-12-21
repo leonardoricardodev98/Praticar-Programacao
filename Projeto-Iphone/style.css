@@ -1,11 +1,18 @@
 @charset "Utf-8";
 
 header{
-    
+    background-color: rgb(48, 136, 212);
+}
+
+nav{
+    background-color: aquamarine;
 }
 
 body{
 background-color: blueviolet;
+background-image:url('imagens/tecnologia.webp');
+background-size:contain;
+background-attachment:fixed;
 }
 
 main{
@@ -17,6 +24,7 @@ main{
     padding-right: 40px;
     padding-bottom: 50px;
     padding-bottom: 50px;
+    
 }
 
 main p{

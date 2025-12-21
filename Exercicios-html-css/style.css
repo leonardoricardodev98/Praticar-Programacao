@@ -49,3 +49,27 @@ div#l4{
     background-position: center center;
 }
 
+
+#container{
+    position: relative;
+    height: 500px;
+    background-color: blueviolet;
+    padding: 20px;
+    background-image: url('imagens/target001.png');
+    background-size: 100% 100%;
+}
+
+#conteudo{
+    position: absolute;
+    height: 200px;
+    background-color: blue;
+    width: 400px;
+
+    left: 50%;
+    top: 50%;
+    
+    background-image: url('imagens/target001.png');
+    background-size: 100% 100%;
+
+    transform: translate(-50%, -50%);
+}
