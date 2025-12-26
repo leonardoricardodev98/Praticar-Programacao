@@ -1,15 +1,56 @@
 @charset "Utf-8";
 
+
+:root{
+
+    --cor001:#010626;
+    --cor002:#022859;
+    --cor003:#034C8C;
+    --cor004:#2481A6;
+    --cor005:#F2CA50;
+
+
+}
+
+
+
 header{
-    background-color: rgb(48, 136, 212);
+    background-color:var(--cor001);
+    text-align: center;
+    padding-top: 20px;
+    color:#F2CA50;
+}
+
+header p{
+    font-size: 25px;
+    padding-bottom: 20px;
 }
 
 nav{
-    background-color: aquamarine;
+    background-color:#022859;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+nav a:hover{
+    background-color: black;
+    padding: 10px;
+    border-radius: 7px;
+    color: red;
 }
 
 body{
-background-color: blueviolet;
+background-color: rgb(0, 0, 0);
 background-image:url('imagens/tecnologia.webp');
 background-size:contain;
 background-attachment:fixed;
